@@ -16,6 +16,13 @@ def dividir(a, b):
 
 def elevar_al_cubo(numero):
     return numero ** 3
-def potencia(a: float, b: float) -> float:
-    Calcula a elevado a la b.
-    return a**b
+
+# Ejemplo de uso
+if __name__ == "__main__":
+    print("Calculadora en Python")
+    print("Suma: 5 + 3 =", sumar(5, 3))
+    print("Resta: 5 - 3 =", restar(5, 3))
+    print("Multiplicación: 5 * 3 =", multiplicar(5, 3))
+    print("División: 5 / 3 =", dividir(5, 3))
+    print("Elevar al cubo: 3³ =", elevar_al_cubo(3))
+    
