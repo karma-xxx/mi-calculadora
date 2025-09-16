@@ -16,3 +16,6 @@ def dividir(a, b):
 
 def elevar_al_cubo(numero):
     return numero ** 3
+def potencia(a: float, b: float) -> float:
+    Calcula a elevado a la b.
+    return a**b
